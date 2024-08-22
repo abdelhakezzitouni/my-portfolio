@@ -2,17 +2,19 @@ import React from 'react';
 import Info from './app/Info/Info';
 import About from './app/About/About';
 import Project from './app/Project/Project';
+import Skills from './app/Skills/Skills';
 
 function App() {
   return (
-    <div className="flex h-screen bg-background text-white pr-14">
+    <div className="flex h-screen bg-background text-white">
 
       <div className='w-1/2'>
         <Info />
       </div>
       
-      <div className='w-1/2 p-4 overflow-auto flex flex-col'>
+      <div className='w-1/2 p-4 overflow-auto flex flex-col pr-20 pt-20'>
         <About />
+        <Skills />
         <Project />
       </div>
     </div>
