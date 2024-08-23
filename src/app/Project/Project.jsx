@@ -5,14 +5,14 @@ import { Data } from '../../../public/data'
 
 function Project() {
 
-  const da = ['html','css', 'java']
+  
   
   return (
     <div className='mt-10'>
         <Header title='Projects'/>
         <div className='mt-5 ml-4 flex flex-col gap-3'>
             {
-              Data.map((item,index)=>(<CardPro title={item.name} description={item.description} skills={item.skills} key={index} />))
+              Data.map((item,index)=>(<CardPro title={item.name} description={item.description} skills={item.skills} github={item.github} view={item.view} key={index} />))
             }
         </div>
     </div>
