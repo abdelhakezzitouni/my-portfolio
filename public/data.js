@@ -20,4 +20,11 @@ export const Data =[
         view:'https://portfolioo-v1.netlify.app/',
         skills:['HTML','CSS','Java Script']
     },
+    {
+        name:'Portfolio v1',
+        description:'A modern model for the Portfolio website to introduce the person, his skills, and his latest work',
+        github:'https://github.com/abdelhakezzitouni/Portfolio-v1',
+        view:'https://portfolioo-v1.netlify.app/',
+        skills:['HTML','CSS','Java Script']
+    },
 ]
