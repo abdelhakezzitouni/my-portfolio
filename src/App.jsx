@@ -7,13 +7,13 @@ import Footer from './app/Footer/Footer';
 
 function App() {
   return (
-    <div className="flex h-screen bg-background text-white">
+    <div className="flex md:h-screen bg-background flex-col md:flex-row text-white px-5 md:px-0 ">
 
-      <div className='w-1/2'>
+      <div className='md:w-1/2'>
         <Info />
       </div>
       
-      <div className='w-1/2 p-4 overflow-auto flex flex-col pr-20 pt-20'>
+      <div className='md:w-1/2  md:overflow-auto flex flex-col lg:pr-20 md:pr-8 pt-20 '>
         <About />
         <Skills />
         <Project />
