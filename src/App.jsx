@@ -12,8 +12,7 @@ function App() {
       <div className='md:w-1/2'>
         <Info />
       </div>
-      
-      <div className='md:w-1/2  md:overflow-auto flex flex-col lg:pr-20 md:pr-8 pt-20 '>
+      <div className='md:w-1/2  md:overflow-auto flex flex-col lg:pr-20 md:pr-8 pt-20  scrollbar scrollbar-thumb-color scrollbar-w-2 overflow-y-scroll'>
         <About />
         <Skills />
         <Project />
@@ -22,5 +21,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
